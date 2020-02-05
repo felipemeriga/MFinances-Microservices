@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: "prod-zone1"
+  application:
+    name: account-service
+
+logging:
+  level:
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+
+server.port: 9003
